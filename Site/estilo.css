@@ -1,0 +1,366 @@
+
+/* Estilo base para o menu */
+* {
+    margin: 0%;
+  }
+  
+  /* Estilo do menu */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("img/Alemanha2.jpeg");
+    min-height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+  
+  .menu {
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .menu a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+  }
+  
+  .menu a:hover {
+    background-color: #06060637;
+    border-radius: 8px;
+  }
+  
+  /* Estilo do botão "Contato" no menu */
+  .menu a:nth-child(7) {
+    color: rgb(255, 255, 255);
+    background-color: #d70000;
+    border-radius: 15px;
+  }
+  
+  /* Estilo do primeiro retângulo */
+  .retangulo {
+    background-color: #e32525bd;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 3%;
+  }
+  
+  .retangulo p {
+    margin: 0;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .retangulo:hover {
+    background-color: #e0101072;
+  }
+  
+  /* Estilo do segundo retângulo */
+  .retangulo2 {
+    background-color: #ffdd00eb;
+    padding: 20px;
+    width: 50%;
+    top: 140%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    position: absolute;
+    left: 3%;
+  }
+  
+  .retangulo2 p {
+    margin: 0;
+  }
+  
+  .retangulo2:hover {
+    background-color: #f2ff01af;
+  }
+
+  /* Estilo do terceiro retângulo */
+  .retangulo3 {
+    background-color: #000000eb;
+    padding: 20px;
+    width: 50%;
+    top: 33%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    position: absolute;
+    left: 3%;
+  }
+  
+  .retangulo3 p {
+    margin: 0;
+  }
+  
+  .retangulo3:hover {
+    background-color: #000000aa;
+  }
+
+  /* Estilo do quarto retângulo */
+  .retangulo4 {
+    background-color: #000000eb;
+    padding: 20px;
+    width: 50%;
+    top: 33%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+  }
+  
+  .retangulo4 p {
+    margin: 0;
+  }
+  
+  .retangulo4:hover {
+    background-color: #000000aa;
+  }
+  
+  /* Estilo do quinto retângulo */
+  .retangulo5 {
+    background-color: #5fa058eb;
+    padding: 20px;
+    width: 50%;
+    top: 33%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    position: absolute;
+    left: 45%;
+  }
+  
+  .retangulo5 p {
+    margin: 0;
+  }
+  
+  .retangulo5:hover {
+    background-color: #5fa0588d;
+  }
+  
+  /* Estilo do título do index */
+  #title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 150px;
+    padding: 20px;
+    animation: changeColor 4s infinite;
+  }
+  
+  @keyframes changeColor {
+    0%, 30% { color: rgba(255, 0, 0, 0.897); }
+    30.01%, 60% { color: rgba(0, 0, 0, 0.896); }
+    60.01%, 100% { color: rgba(255, 255, 0, 0.867); }
+  }
+  
+  /* Estilo do texto */
+  p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #ff0000;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h2 {
+    color: #d9ff00;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h3 {
+    color: #000000;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  
+  /* Estilo da imagem com zoom */
+  .container {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    top: 33%;
+    left: 59%;
+    border-radius: 15px;
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Estilo da segunda imagem com zoom */
+  .container2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    top: 140%;
+    left: 60%;
+    border-radius: 15px;
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+  .container3 {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+    top: 33%;
+    left: 60%;
+    border-radius: 15px;
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+  .container4 {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+    top: 87%;
+    left: 60%;
+    border-radius: 15px;
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+  .container5 {
+    position: absolute;
+    width: 600px;
+    height: 700px;
+    overflow: hidden;
+    top: 200%;
+    left: 60%;
+    border-radius: 15px;
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+  .container6 {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+    top: 40%;
+    left: 4%;
+    border-radius: 15px;
+  }
+  
+  .zoom {
+    transition: transform 0.5s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2);
+  }
+
+
+  /* estilo de rodapé para todas as páginas */
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .anchor-right {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px dashed #fff;
+    transition: border-color 0.3s;
+  }
+  
+  .anchor-right:hover {
+    border-color: #ccc;
+  }
+  
+  /* Estilos CSS para a aba de contato */
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+textarea {
+  resize: none;
+}
+  
